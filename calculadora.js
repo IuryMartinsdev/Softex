@@ -25,7 +25,7 @@ do {
   console.log(`${numero1} ${operacao} ${numero2} = ${resultado}`);
   
   while (true) {
-    finalizar = prompt('Deseja sair? (s/n): ');
+    finalizar = prompt('Deseja sair? (s/n) : ');
     
     if (finalizar === 's') {
       break;
