@@ -1,1 +1,1 @@
-Primeiro desafio realizado no curso da softex focado em Javascript para backend
+Repositorio destinado a atividades e desafios realizados no curso de programação acelerada ofertado pela Softex
