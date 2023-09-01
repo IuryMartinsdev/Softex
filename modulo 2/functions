@@ -1,0 +1,12 @@
+function tradicional(){
+    console.log("uma função tradicional sem parâmetro");
+}
+function somar(a,b){
+    return soma = a + b;
+}
+
+const arrow = (x) => x * 2;
+
+tradicional();
+console.log(`Utilizando uma função para somar: 2 + 2 = ${somar(2,2)}`)
+console.log(`Utilando uma arrow function para multiplicar um valor: 3 * 2 = ${arrow(3)}`)
