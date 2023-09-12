@@ -1,0 +1,20 @@
+const pessoas = [
+    {nome: "Iury", idade: "20", profissao: "Desenvolvedor", cidade: "Petrolina"},
+    {nome: "Carla", idade: "21", profissao: "Designer", cidade: "Juazeiro"},
+    {nome: "Pedro", idade: "25", profissao: "Dentista", cidade: "Aracaju"},
+    {nome: "Laura", idade: "24", profissao: "Enfermeira", cidade: "São Paulo"}
+    ];
+    
+console.log("Utilizando for in:\n")
+
+for(let indice in pessoas) {
+  console.log(`| Nome: ${pessoas[indice].nome} | Idade: ${pessoas[indice].idade} | Profissão: ${pessoas[indice].profissao} | Cidade: ${pessoas[indice].cidade} |`)
+}
+
+console.log(`
+Utilizando for of:
+`)
+
+for(let info of pessoas) {
+    console.log(`| Nome: ${info.nome} | Idade: ${info.idade} | Profissão: ${info.profissao} | Cidade: ${info.cidade}`)
+}
